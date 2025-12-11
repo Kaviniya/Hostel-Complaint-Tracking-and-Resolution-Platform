@@ -1,0 +1,41 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1, h2 {
+  color: #007bff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.btn-primary {
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-size: 1.1rem;
+}
+
+.complaint-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.complaint-form {
+  transition: all 0.3s ease;
+}
+
+.complaint-form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+textarea.form-control {
+  resize: none;
+}
